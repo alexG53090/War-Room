@@ -1,0 +1,25 @@
+{
+  "name": "warroom",
+  "version": "0.0.1",
+  "description": "q3 quiz",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexG53090/War-Room.git"
+  },
+  "author": "Alex Bennett <alexandergraybennett@gmail.com> (http://thedope.agency)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexG53090/War-Room/issues"
+  },
+  "homepage": "https://github.com/alexG53090/War-Room#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "monk": "^1.0.1",
+    "socket.io": "^1.4.5",
+    "unirest": "^0.4.2"
+  }
+}
