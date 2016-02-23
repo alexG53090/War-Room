@@ -1,0 +1,24 @@
+.navbarz {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbarz > h1 {
+  margin: 10px;
+}
+
+.therd {
+  width:33%;
+  margin: 2px;
+  height: 650px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-box {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

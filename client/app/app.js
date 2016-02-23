@@ -6,12 +6,12 @@ angular.module('gServes', ['ui.router'])
 
     $stateProvider.state('home', {
       templateUrl: 'templates/home.html',
-      controller: 'HomeController',
+      controller: 'OverviewController',
       url: '/home'
     }).state('detail', {
       templateUrl: 'templates/detail.html',
       controller: 'DetailController',
-      url: '/detail/:id'
+      url: '/detail'
     }).state('settings', {
       templateUrl: 'templates/settings.html',
       controller: 'SettingsController',
